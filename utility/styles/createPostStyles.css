@@ -1,0 +1,32 @@
+#createPostWrapper {
+  width: 99vw;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+#createPostForm {
+  width: 45vw;
+  height: 43vh;
+  border: 1px lightgrey solid;
+  display: flex;
+  justify-content: center;
+  margin-top: 13vh;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px 5px grey;
+}
+#createPostForm input[type="text"] {
+  margin-left: 0;
+  width: 40vw;
+  height: 5vh;
+  border: 1px lightgrey solid;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+#createPostForm input[type="submit"] {
+  width: 7vw;
+  height: 5vh;
+  margin-top: 3vh;
+  border-radius: 5px;
+}

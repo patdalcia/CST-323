@@ -1,0 +1,24 @@
+.viewSinglePostMainDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10vh;
+}
+.viewSinglePostMainDiv table {
+  text-align: center;
+  background-color: white;
+  border-collapse: collapse;
+  width: 50vw;
+  box-shadow: 0px 0px 10px 5px grey;
+}
+.viewSinglePostMainDiv table thead {
+  border: 1px black solid;
+  height: 25vh;
+}
+.viewSinglePostMainDiv table tbody tr {
+  height: 20vh;
+  background-color: #f0e9cd;
+}
+.viewSinglePostMainDiv table tr td {
+  border: 1px black solid;
+}

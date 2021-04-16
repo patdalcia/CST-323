@@ -1,0 +1,45 @@
+.viewSingleUserPostMainDiv {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10vh;
+}
+.viewSingleUserPostMainDiv table {
+  text-align: center;
+  background-color: white;
+  border-collapse: collapse;
+  width: 50vw;
+  box-shadow: 0px 0px 10px 5px grey;
+}
+.viewSingleUserPostMainDiv table thead {
+  border: 1px black solid;
+  height: 30vh;
+}
+.viewSingleUserPostMainDiv table tbody tr {
+  height: 25vh;
+  width: 100%;
+  background-color: #f0e9cd;
+}
+.viewSingleUserPostMainDiv table tr td {
+  height: 100%;
+  width: 100%;
+}
+.viewSingleUserPostMainDiv table tr td div {
+  margin-bottom: 0;
+  margin-top: 35px;
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+#titleButton {
+  border: none;
+  background-color: inherit;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(53, 53, 221);
+}
+#titleButton:hover {
+  color: rgb(98, 98, 235);
+}

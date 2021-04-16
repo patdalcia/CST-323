@@ -1,0 +1,29 @@
+#confirmWrapper {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#confirmWrapper a {
+  text-decoration: none;
+  color: rgb(43, 43, 223);
+}
+#confirmWrapper a:hover {
+  color: rgb(79, 79, 224);
+}
+#confirmMainDiv div {
+  display: flex;
+  justify-content: space-around;
+}
+#titleButton {
+  border: none;
+  background-color: inherit;
+  font-size: 20px;
+  cursor: pointer;
+  display: inline-block;
+  color: rgb(53, 53, 221);
+}
+#titleButton:hover {
+  color: rgb(98, 98, 235);
+}

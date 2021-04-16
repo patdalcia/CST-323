@@ -1,0 +1,49 @@
+* {
+  overflow: hidden;
+}
+#mainDiv {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+input[type="text"] {
+  width: 30vw;
+  height: 4vh;
+  border-radius: 10px;
+  margin: 10px;
+}
+input[type="submit"] {
+  width: 10vw;
+  height: 5vh;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+#Form {
+  width: 50%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px 5px grey;
+}
+
+#Form > input {
+  text-align: center;
+}
+#mainDiv a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(53, 53, 221);
+}
+#mainDiv a:hover {
+  color: rgb(98, 98, 235);
+}
